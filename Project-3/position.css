@@ -1,0 +1,22 @@
+#nav{
+      background-color: grey;
+      text-align: center;
+      position: sticky;
+      width: 100%;
+      top: 500px; 
+}
+
+.div{
+      width: 200px;
+      height: 150px;
+      border: 1px solid blue
+}
+
+#div-2{
+      position: relative;
+      left: 500px;
+}
+
+body{
+      height: 200vh;
+}

@@ -1,0 +1,23 @@
+#bangla{
+      color: red;
+      background-color: black;
+      font-size: 50px;
+      font-weight: 900;
+      font-style: italic;
+      text-align: center;
+}
+
+#song{
+      /* background-color: yellowgreen; */
+      /* text-decoration: line-through; */
+      text-transform: capitalize;
+      /* letter-spacing: 30px; */
+      text-shadow: 2px 2px rgba(0, 0, 255, 0.486);
+}
+
+#list{
+      list-style: lower-roman;
+}
+#potato{
+      color: blue;
+}

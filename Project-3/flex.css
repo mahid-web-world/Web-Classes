@@ -1,0 +1,14 @@
+.content{
+      width: 400px;
+      height: 200px;
+      /* background-color: blueviolet; */
+      border: 1px solid blue;
+}
+
+#flex-box{
+      display: flex;
+      height: 100vh;
+      gap: 20px;
+      flex-wrap: wrap;
+}
+
