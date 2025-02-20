@@ -1,0 +1,34 @@
+.child{
+      min-width: 200px;
+      max-width: 100%;
+
+      min-height: 200px;
+      max-height:100% ;
+      
+      border: 2px solid rebeccapurple;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.parent{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+}
+
+#c-1,
+#c-6{
+      grid-column: span 3;
+      background-color: gray;
+}
+
+#c-2{
+      grid-row: span 2;
+      background-color: palevioletred;
+}
+
+#c-3{
+      grid-column: span 2;
+}
+
