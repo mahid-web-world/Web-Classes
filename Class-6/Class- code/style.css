@@ -1,0 +1,120 @@
+html{
+      scroll-behavior: smooth;
+}
+/* font variation */
+.font-neue{
+      font-family: "Bebas Neue", serif;
+}
+.font-roboto{
+      font-family: "Roboto", serif;
+}
+
+.btn{
+      border-radius: 10px;
+      background: linear-gradient(180.00deg, rgb(164, 188, 70),rgb(133, 160, 25) 100%);
+      padding: 18px 33px;
+      border: none;
+      color: white;
+      display: flex;
+      gap: 6px;
+      align-items: center;
+}
+
+
+/* style */
+
+#nav-bar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+
+}
+.logo{
+      width: 300px;
+}
+header{
+      background-color: #FFFBF0;
+      min-height: 720px;
+}
+
+.nav-items a{
+      text-decoration: none;
+      color: #3C3C3C;
+      margin-left: 26px;
+}
+
+/* banner style hare */
+#banner-section{
+      display: flex;
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+}
+
+#banner-title{
+      font-size: 80px;
+}
+.banner-des{
+      margin-top: -60px;
+      color: #3E3E3E;
+}
+
+main{
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+}
+
+.product-title{
+      font-size: 48px;
+      color: #363958;
+}
+.card-image{
+      background-color: #F1F1F1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 28px 0;
+      border-radius: 20px;
+}
+.card-image img{
+      width: 50%;
+}
+
+.card{
+      border-radius: 20px;
+      box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+      background: rgb(255, 255, 255);
+      padding: 18px;
+}
+
+#card-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+}
+
+.card-title{
+      font-size: 24px;
+      font-weight: 700;
+      color: #363958;
+}
+.card-dis{
+      color: #3E3E3E;
+}
+.price{
+      color: #FABE4C;
+      font-weight: 900;
+      font-size: 36px;
+}
+.card-end{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
