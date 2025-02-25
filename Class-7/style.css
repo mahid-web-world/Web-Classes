@@ -1,0 +1,25 @@
+.child{
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid rebeccapurple;
+}
+
+#parent{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 20px;
+}
+/* only tablet */
+@media only screen and (max-width:768px) {
+      #parent{
+            grid-template-columns: repeat(2,1fr);
+      }
+}
+
+@media only screen and (max-width:425px){
+      #parent{
+            grid-template-columns: repeat(1,1fr);
+      }
+}
