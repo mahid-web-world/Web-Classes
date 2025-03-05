@@ -1,0 +1,47 @@
+@media screen and (max-width:768px){
+      #card-container{
+            grid-template-columns: repeat(3,1fr);
+      }
+      #start-nav{
+            display: none;
+      }
+      #end-nav{
+            display: none;
+      }
+      #nav-reponsive{
+            display: block;
+            color: white;
+            font-size: 32px;
+      }
+      #nav-bar{
+            background-color:transparent ;
+      }
+}
+@media screen and (max-width: 425px) {
+      #start-nav{
+            display: none;
+      }
+      #end-nav{
+            display: none;
+      }
+      #nav-reponsive{
+            display: block;
+            color: white;
+            font-size: 32px;
+      }
+      #nav-bar{
+            background-color:transparent ;
+      }
+      #middle-nav h1{
+            color: black;
+      }
+      #catergory{
+            display: none;
+      }
+      #card-container{
+            grid-template-columns: repeat(1,1fr);
+      }
+      #banner-title{
+            font-size: 46px;
+      }
+    }
