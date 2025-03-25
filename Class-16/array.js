@@ -1,10 +1,10 @@
 // what is array??
 
-const student_rolls = [1, 2, 3, 4, 5, 6]
-// console.log(student_rolls.length)
-for (let i = 0; i < student_rolls.length; i++) {
-      console.log("Student roll is:", student_rolls[i])
-}
+// const student_rolls = [1, 2, 3, 4, 5, 6]
+// // console.log(student_rolls.length)
+// for (let i = 0; i < student_rolls.length; i++) {
+//       console.log("Student roll is:", student_rolls[i])
+// }
 
 
 // array element accessing..
@@ -25,3 +25,4 @@ for (let i = 0; i < student_rolls.length; i++) {
 // delete element on the first
 // student_rolls.shift()
 
+console.log(true + true)
